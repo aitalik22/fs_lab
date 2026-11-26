@@ -1,0 +1,32 @@
+=== BLOCK DEVICES ===
+NAME FSTYPE FSVER LABEL UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+sda  ext4   1.0                                                             
+sdb  ext4   1.0                                                             
+sdc  swap   1           bf65d840-b5fb-4fad-a651-0b2bc452d52d                [SWAP]
+sdd  ext4   1.0         8cdc8d56-7ebc-470f-b29e-7d36ef7dae62  953.1G     0% /mnt/wslg/distro
+                                                                            /
+=== FILESYSTEM USAGE ===
+Filesystem     Type     Size  Used Avail Use% Mounted on
+none           overlay  3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none           tmpfs    3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers        9p       476G  355G  122G  75% /usr/lib/wsl/drivers
+/dev/sdd       ext4    1007G  2.6G  954G   1% /
+none           tmpfs    3.9G   80K  3.9G   1% /mnt/wslg
+none           overlay  3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs         rootfs   3.8G  2.7M  3.8G   1% /init
+none           tmpfs    3.9G  556K  3.9G   1% /run
+none           tmpfs    3.9G     0  3.9G   0% /run/lock
+none           tmpfs    3.9G     0  3.9G   0% /run/shm
+none           overlay  3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none           overlay  3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\            9p       476G  355G  122G  75% /mnt/c
+D:\            9p       477G  369G  109G  78% /mnt/d
+none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs          tmpfs    3.9G     0  3.9G   0% /tmp
+none           tmpfs    1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none           tmpfs    1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+none           tmpfs    1.0M     0  1.0M   0% /run/credentials/console-getty.service
+tmpfs          tmpfs    780M   12K  780M   1% /run/user/1000
+=== ROOT MOUNT ===
+TARGET SOURCE   FSTYPE OPTIONS
+/      /dev/sdd ext4   rw,relatime,discard,errors=remount-ro,data=ordered
