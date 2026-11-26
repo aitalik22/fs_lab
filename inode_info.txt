@@ -1,0 +1,8 @@
+  File: final.txt
+  Size: 6         	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 20980       Links: 1
+Access: (0644/-rw-r--r--)  Uid: ( 1000/   aital)   Gid: ( 1000/   aital)
+Access: 2026-11-26 14:54:02.880223582 +1200
+Modify: 2026-11-26 14:54:02.880223582 +1200
+Change: 2026-11-26 14:54:55.483992356 +1200
+ Birth: 2026-11-26 14:54:02.880223582 +1200
